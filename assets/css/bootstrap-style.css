@@ -1,0 +1,38 @@
+/*general*/
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/dark-triangles.png);
+}
+
+/*positioning*/
+.push {
+  height: 70px;
+}
+
+.container{
+  min-height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  margin-bottom: -70px;
+}
+
+.vertically-centered {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 100%;
+}
+
+/*contact form*/
+text-area {
+  resize: none;
+}
+
+footer {
+  height: 50px;
+}
