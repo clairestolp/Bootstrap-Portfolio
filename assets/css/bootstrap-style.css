@@ -7,14 +7,52 @@ body {
   background-image: url(../images/dark-triangles.png);
 }
 
+/*correct positioning of content to accomodate footer*/
+
 .push {
   height: 50px;
 }
 
-.wrapper {
-  margin-bottom: -50px;
+.container{
+  position: relative;
   height: 100%;
 }
+
+.wrapper {
+  margin-bottom: -50px;
+}
+
+.vertically-centered {
+  position: absolute;
+  transform: translate(-50%, -50%) !important;
+  top: 45%;
+  left: 50%;
+  min-width: 100%;
+}
+
+/*nav*/
+.bg-red {
+  background-color: #d7443f;
+}
+
+.bg-grey {
+  background-color: #485058;
+}
+
+.nav-item {
+  height: 100%;
+}
+
+.nav-item:hover{
+  background-color: #485058;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+
+
 
 /*contact form*/
 text-area {
@@ -24,3 +62,5 @@ text-area {
 footer {
   height: 50px;
 }
+
+/*#485058*/
