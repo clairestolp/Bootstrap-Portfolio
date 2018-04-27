@@ -13,6 +13,13 @@ body {
   height: 50px;
 }
 
+/*
+
+***Attempted to vertically center the section in the
+container but I couldn't figure out how to stop the section
+from overlaping the container and bleeding into the header/footer
+when the page is resized. Uncomment to see what happens.
+
 .container{
   position: relative;
   height: 100%;
@@ -22,13 +29,14 @@ body {
   margin-bottom: -50px;
 }
 
+
 .vertically-centered {
   position: absolute;
   transform: translate(-50%, -50%) !important;
   top: 45%;
   left: 50%;
   min-width: 100%;
-}
+}*/
 
 /*nav*/
 .bg-red {
@@ -51,6 +59,15 @@ body {
   color: #ffffff;
 }
 
+.btn-primary {
+  border-color: #d7443f;
+  background-color: #d7443f;
+}
+
+.btn-primary:hover{
+  background-color: #a33430;
+  border-color: #a33430;
+}
 
 
 
