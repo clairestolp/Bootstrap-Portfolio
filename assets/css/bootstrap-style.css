@@ -59,16 +59,6 @@ when the page is resized. Uncomment to see what happens.
   color: #ffffff;
 }
 
-.btn-primary {
-  border-color: #d7443f;
-  background-color: #d7443f;
-}
-
-.btn-primary:hover{
-  background-color: #a33430;
-  border-color: #a33430;
-}
-
 
 
 /*contact form*/
@@ -76,8 +66,32 @@ text-area {
   resize: none;
 }
 
+.btn-primary {
+  border-color: #d7443f;
+  background-color: #d7443f;
+  border-radius: 0px;
+}
+
+.btn-primary:hover{
+  background-color: #a33430;
+  border-color: #a33430;
+}
+
+/*footer*/
+
 footer {
   height: 50px;
 }
+
+i {
+  color: #d7443f;
+  margin: 2px;
+}
+
+i:hover {
+  color: #a33430;
+}
+
+
 
 /*#485058*/
